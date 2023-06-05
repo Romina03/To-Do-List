@@ -21,6 +21,12 @@ ul li:nth-child(odd){
     background: rgb(247, 187, 112);
 }
 
+.check-box {
+    position: relative;
+    top: 1.5px;
+    right: 2px;
+}
+
 .enter-button {
     border: none;
     border-radius: 30px;
@@ -31,10 +37,8 @@ ul li:nth-child(odd){
 }
 
 .remove-button {
-    position: relative;
-    left: 470px;
-    bottom:3px;
-    height:10px;
+    position: absolute;
+    right: 450px;
     border: none;
     background-color: inherit;
 }
